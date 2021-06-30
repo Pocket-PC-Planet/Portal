@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portal - PPC Planet</title>
+    <meta name="theme-color" content="#1ed44e">
+    <meta name="twitter:card" content="summary">
+    <link href="https://ppcplanet.org/stylesheets/main.css" rel="stylesheet" />
+    <link href="https://ppcplanet.org/stylesheets/portal.css" rel="stylesheet" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pocket PC Planet" />
+    <meta property="og:url" content="https://ppcplanet.org/" />
+    <meta property="og:image" content="http://ppcplanet.org/images/ppc.png" />
+    <meta property="og:description" content="Pocket PC Planet is a site dedicated to preserving the history of Pocket PCs." />
+    <script src="https://kit.fontawesome.com/b0a2c45541.js" crossorigin="anonymous"></script>
+    <link href="https://ppcplanet.org/images/ppc.ico" rel="icon" type="image/ico" />
+    <meta name="keywords" content="PPC Planet, Pocket PC, Pocket PC Planet, Windows Mobile, Windows for Pocket PCs">
+    <meta name="description" content="Pocket PC Planet is a site dedicated to preserving the history of Pocket PCs.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="/spmspn/spmspn.js"></script>
+</head>
+
+<body>
+    <nav>
+        <p class="logo" style="color: #1ed44e;"><b><img src="https://ppcplanet.org/images/ppc.png">PPC Planet</b></p>
+        <ul>
+            <li><a href="https://ppcplanet.org/index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="https://ppcplanet.org/archive.html"><i class="fas fa-save"></i> Public Archive</a></li>
+            <li><a href="http://appcatalog.ppcplanet.org"><i class="fas fa-shopping-bag"></i> App Catalog</a></li>
+            <li><a href="https://ppcplanet.org/portal/?q="><i class="fas fa-search"></i> Portal</a></li>
+            <li><a href="https://ppcplanet.org/about.html"><i class="fas fa-info-circle"></i> About</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+<div>
+<form action="" method="GET" name="">
+    <div class="searchArea">
+      <img src="https://ppcplanet.org/images/portal.png"/>
+      <h1>PPC Planet Portal <i>BETA</i></h1>
+      <input type="text" name="q" value="<?php echo isset($_GET['q']) ? $_GET['q'] : ''; ?>" placeholder="Enter query here..." class="searchBox"/>
+      <input type="submit" name="" value="Search" class="greenBtn"/>
+      <br>
+      <p>Meet PPC Planet Portal, a search engine that helps you find Pocket PC software, manuals, and more! It is currently in beta, so feel free to contact us if you want to report a bug or suggest a feature.</p>
+  </div>
+</form>
+<hr>
+</div>
+</body>
+</html>
