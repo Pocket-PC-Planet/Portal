@@ -9,4 +9,4 @@ Meet PPC Planet Portal, a search engine that helps you find Pocket PC software, 
 - [PPC Planet](https://ppcplanet.org/)
 
 ### Important
-This project is currently in its beta phase. [Initial Release Progress](https://github.com/Pocket-PC-Planet/Portal/projects/1)
+This project is currently in its beta phase. See [Initial Release Progress](https://github.com/Pocket-PC-Planet/Portal/projects/1) to learn more.
