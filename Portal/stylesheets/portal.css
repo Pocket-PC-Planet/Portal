@@ -5,6 +5,7 @@
 \/   \/   \____/  \/    |_|\__,_|_| |_|\___|\__|
 
 Copyright (c) Pocket PC Planet Team, 2021 - Do not replicate this site  */
+
 .searchArea {
     margin-left: auto;
     margin-right: auto;
@@ -13,4 +14,13 @@ Copyright (c) Pocket PC Planet Team, 2021 - Do not replicate this site  */
 
 .searchBox {
     border-radius: 5px;
+}
+
+.result {
+    background-color: #222222;
+    border: #1ed44e 2px solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
