@@ -38,7 +38,7 @@
     <div class="searchArea">
       <img src="https://ppcplanet.org/images/portal.png"/>
       <h1>PPC Planet Portal</h1>
-      <input type="text" name="q" value="<?php echo isset($_GET['q']) ? $_GET['q'] : ''; ?>" placeholder="Enter query here..." class="searchBox"/>
+      <input type="text" name="q" value="<?php echo nl2br(htmlspecialchars(isset($_GET['q']) ? $_GET['q'] : '', ENT_QUOTES)); ?>" placeholder="Enter query here..." class="searchBox"/>
       <input type="submit" name="" value="Search" class="greenBtn"/>
       <br>
       <p>Meet PPC Planet Portal, a search engine that helps you find Pocket PC software, manuals, and more! It is open source and regularly being updated by the team.<br><br><a href="https://github.com/pocket-pc-planet/portal" target="_blank"><i class="fab fa-github"></i> GitHub Page</a></p>
