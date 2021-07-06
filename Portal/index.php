@@ -45,7 +45,7 @@ if ($searchTxt != '') {
       //loop through results
       while ($row = mysqli_fetch_assoc($query)) {
         //echo name, description, and category. link to archive listing.
-        echo "<hr><div class='result'><h2><a href='https://archive.ppcplanet.org/?q=" . $row["name"] . "' target='_blank'>" . $row["name"] . "</a></h2><p>" . $row["content"] . "</p><p>Category:&nbsp;<i>" . $row['category'] . "</i></p></div>";
+        echo "<hr><div class='result'><h2><a href='https://archive.ppcplanet.org/?q=" . $row["name"] . "' target='_blank'>" . $row["name"] . "</a></h2><p>" . $row["content"] . "</p><div class='attribute'>" . $row["category"] . "</div><div class='attribute'>" . $row["type"] . "</div></div>";
       }
     }
 
