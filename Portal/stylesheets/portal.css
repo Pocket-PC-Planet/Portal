@@ -24,3 +24,13 @@ Copyright (c) Pocket PC Planet Team, 2021 - Do not replicate this site  */
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.attribute {
+    display: inline-block;
+    color: white;
+    background-color: #288d40;
+    border: #1ed44e 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
