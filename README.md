@@ -7,6 +7,3 @@ Meet PPC Planet Portal, a search engine that helps you find Pocket PC software, 
 - [Official Page](https://ppcplanet.org/portal/)
 - [Discord Server](https://discord.gg/tHbx4qc)
 - [PPC Planet](https://ppcplanet.org/)
-
-### Important
-This project is currently in its beta phase. See [Initial Release Progress](https://github.com/Pocket-PC-Planet/Portal/projects/1) to learn more.
