@@ -45,7 +45,7 @@ if ($searchTxt != '') {
       //loop through results
       while ($row = mysqli_fetch_assoc($query)) {
         //echo name, description, and category. link to archive listing.
-        echo "<hr><div class='result'><h2><a href='https://archive.ppcplanet.org/?q=" . nl2br(htmlspecialchars($row['name'], ENT_QUOTES)) . "' target='_blank'>" . nl2br(htmlspecialchars($row['name'], ENT_QUOTES)) . "</a></h2><p>" . nl2br(htmlspecialchars($row['content'], ENT_QUOTES)) . "</p><div class='attribute'>" . nl2br(htmlspecialchars($post['category'], ENT_QUOTES)) . "</div><div class='attribute'>" . nl2br(htmlspecialchars($post['type'], ENT_QUOTES)) . "</div></div>";
+        echo "<hr><div class='result'><h2><a href='https://archive.ppcplanet.org/?q=" . nl2br(htmlspecialchars($row['name'], ENT_QUOTES)) . "' target='_blank'>" . nl2br(htmlspecialchars($row['name'], ENT_QUOTES)) . "</a></h2><p>" . nl2br(htmlspecialchars($row['content'], ENT_QUOTES)) . "</p><div class='attribute'>" . nl2br(htmlspecialchars($row['category'], ENT_QUOTES)) . "</div><div class='attribute'>" . nl2br(htmlspecialchars($row['type'], ENT_QUOTES)) . "</div></div>";
       }
     }
 
